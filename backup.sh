@@ -5,7 +5,7 @@ remote_user='miriam'
 remote_host='192.168.1.3'
 dest_path="/media/miriam/backup/bigtime/"
 home="/home/ruben"
-limit_secs=120 #43200 # 12h
+limit_secs=43200 # 12h
 sources="$home /etc"
 excludes="--exclude=.backup --exclude=*~ --exclude=.*~ --exclude=.cache --exclude=Trash --exclude=Ubuntu*One --exclude=.mozilla/firefox"
 
